@@ -1,0 +1,45 @@
+Mobile Shop - Database
+
+Database
+
+CREATE DATABASE mobiletest;
+CREATE DATABASE mobilefinal;
+
+Tables
+........................................................................................................................
+Table Name -Signup
+
+
+CREATE TABLE signup(
+
+signupid INT NOT NULL AUTO_INCREMENT,
+email VARCHAR(100) NOT NULL,
+PASSWORD VARCHAR(12) NOT NULL,
+`signup`PRIMARY KEY(signupid)
+
+
+);
+
+............................................................................................................................
+
+table name - category
+
+
+create table category (
+categoryid int not null auto_increment,
+addcategory varchar(1000)not null,
+
+primary key(category)
+
+);
+
+
+
+
+
+
+
+
+
+
+
